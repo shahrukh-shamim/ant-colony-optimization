@@ -1,0 +1,49 @@
+svg
+{
+	border: 1px solid black;
+	height: 500px;
+	width: 1000px;
+	margin-left: 110px;
+}
+
+body
+{
+	width: 1200px;
+}
+
+div
+{
+}
+
+h1
+{
+	border: 1px solid red;
+	text-align: center;
+	color: brown;
+	background: black;
+	width: 1260px;
+}
+
+label#start 
+{
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+label#target 
+{
+	color: blue;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+button:disabled
+{
+	cursor: not-allowed;
+}
+
+#form
+{
+	margin-left: 500px;
+}
