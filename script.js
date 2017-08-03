@@ -42,7 +42,7 @@ function test()
     console.log(start_Node+""+target_Node+"selected");
 	var form = document.createElement("form");
     form.setAttribute("method", "post");
-    form.setAttribute("action", "front_end.php");
+    form.setAttribute("action", "index.php");
     //form.setAttribute("target", "_blank");
 
     var hiddenField = document.createElement("input");
@@ -68,37 +68,6 @@ function test()
     form.submit();
 }
 
-function getnode(i)
-{
-	switch(i)
-	{
-		case 0:
-			return "A";
-		case 1:
-			return "B";		
-		case 2:
-			return "C";
-		case 3:
-			return "D";
-		case 4:
-			return "E";
-		case 5:
-			return "F";
-		case 6:
-			return "G";
-		case 7:
-			return "H";
-		case 8:
-			return "I";
-		case 9:
-			return "J";
-		case 10:
-			return "K";
-		default:
-			return "A";						
-	}
-}
-
 function pause_resume()
 {
 	if (document.getElementById('2').innerHTML == "Pause")
@@ -115,7 +84,7 @@ function pause_resume()
 function reset_ACO()
 {
 	
-	window.location = "http://localhost/ACO/front_end.php";
+	window.location = "http://localhost/ant-colony-optimization/index.php";
 }
 
 function sum(array)
