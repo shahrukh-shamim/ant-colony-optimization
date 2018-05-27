@@ -1,5 +1,5 @@
-var starting_node = "E";
-var target_node   = "A";
+var starting_node = "A";
+var target_node   = "B";
 
 var A; var B;
 var myGraph = 
