@@ -84,7 +84,7 @@ function pause_resume()
 function reset_ACO()
 {
 	
-	window.location = "http://localhost/ant-colony-optimization/index.php";
+	window.location = "ant-colony-optimization/index.php";
 }
 
 function sum(array)
